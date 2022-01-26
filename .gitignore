@@ -1,6 +1,7 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/pythonvanilla,jupyternotebooks,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=pythonvanilla,jupyternotebooks,linux
+
+# Created by https://www.toptal.com/developers/gitignore/api/linux,pythonvanilla,jupyternotebooks,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,pythonvanilla,jupyternotebooks,visualstudiocode
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -99,6 +100,28 @@ cover/
 __pypackages__/
 
 
-# End of https://www.toptal.com/developers/gitignore/api/pythonvanilla,jupyternotebooks,linux
+### VisualStudioCode ###
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+
+# End of https://www.toptal.com/developers/gitignore/api/linux,pythonvanilla,jupyternotebooks,visualstudiocode
 data/
 db/
